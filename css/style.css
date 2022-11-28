@@ -539,6 +539,7 @@ div img {
                           }
 
 .nota {
+        margin-top: 10px;
         text-align: center;
         font-style: italic;
         font-weight: bold;
