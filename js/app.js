@@ -117,7 +117,7 @@ $('#addProducto').click(function () {
   }
 
   function mostrarFormulario() {
-    let formularrio = document.getElementById("formulario").style.visibility = "visible";
-    let tabla = document.getElementById("tabla_productos").style.marginTop = "5%";
-    let boton = document.getElementById("add").style.visibility = "hidden";
+    document.getElementById("formulario").style.visibility = "visible";
+    document.getElementById("tabla_productos").style.marginTop = "5%";
+    document.getElementById("add").style.visibility = "hidden";
   }
