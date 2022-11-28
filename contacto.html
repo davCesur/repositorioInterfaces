@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de contacto</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="icon" types="images/x-icon" href="images/favicon.webp">
+</head>
+<body>
+    <header>
+        <div class="header__superior">
+            <div class="logo">
+               <img src="images/logo.png" alt="">
+            </div>
+            <div class="search">
+                <input type="search" placeholder="Busca en PcComponentes...">
+            </div>
+        </div>
+
+        <div class="container__menu">
+           <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="sobreNosotros.html">Sobre Nosotros</a></li>
+                        <li><a href="producto.html">Producto</a></li>
+                        <li><a href="categoriaProductos.html">Categoría</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                        <li><a href="login.html">Login</a></li>
+                    </ul>
+                </nav>
+           </div>
+        </div>  
+    </header>
+
+    <main>
+        <section id="contenido">
+            <h2 class="tituloFormulario">Formulario de contacto</h2>
+            <h3 class="subFormulario">Escríbenos y en breve nos pondremos en contacto contigo</h3>
+
+            <form action="#" class="formContacto">
+                
+                <label for="nombre">Nombre *</label>
+                <input type="text" class="form-input form-group" id="name" placeholder="Introduce tu nombre" required>
+
+                <label for="email">Email *</label>
+                <input type="email" class="form-input form-group" id="email" placeholder="Introduce tu email" required>
+               
+                <label for="telefono">Teléfono *</label>
+                <input type="tel" class="form-input form-group" placeholder="Introduce tu teléfono" pattern="[0-9]{9}" required>
+              
+                <label for="mensaje">Mensaje </label>
+                <textarea class="form-input form-group" rows="5" cols="50" placeholder="Deja tu comentario"></textarea>
+              
+                <button class="form-button form-group form-group--submit" type="submit">Enviar</button>
+
+            </form>
+        </section>
+
+   </main>
+    
+    <footer>
+        <div class="container__footer">
+            <div class="box__footer">
+                <div class="terms">
+                    <img src="images/qr.png" />
+                </div>
+            </div>
+            <div class="box__footer">
+                <h2>Soluciones</h2>
+                <a href="https://www.google.com">App Desarrollo</a>
+                <a href="#">App Marketing</a>
+                <a href="#">IOS Desarrollo</a>
+                <a href="#">Android Desarrollo</a>
+            </div>
+
+            <div class="box__footer">
+                <h2>Compañia</h2>
+                <a href="#">Acerca de</a>
+                <a href="#">Trabajos</a>
+                <a href="#">Procesos</a>
+                <a href="#">Servicios</a>              
+            </div>
+
+            <div class="box__footer">
+                <h2>Redes Sociales</h2>
+                <a href="#"> <img src="images/facebook.png"> Facebook</a>
+                <a href="#"><img src="images/twitter.png">Twitter</a>
+                <a href="#"><img src="images/instagram.png"> Instagram</a>
+                <a href="https://github.com/davCesur/repositorioInterfaces.git"><img src="images/github.png"> GitHub</a>
+            </div>
+        </div>
+
+        <div class="box__copyright">
+            <hr>
+            <p> PC Componentes y Multimedia SLU CIF B73347494. AVDA Europa, Parcela 2-5 y 2-6. Polígono industrial Las Salinas, 30840, Alhama de Murcia, Murcia. ESPAÑA.</p>
+        </div>
+    </footer>
+</body>
+</html>
